@@ -13,7 +13,7 @@ My favorite editor right now is VSCode. I use the following extensions:
 - Markdown All In One
 
 ### C/C++
-- C/C++ 
+- C/C++
 - C/C++ Themes
 - C/C++ Extension Pack
 - C/C++ Compile Run by danielpinto8zz6
@@ -40,16 +40,23 @@ To set Windows Terminal up the way I like it, use the following configuration:
 - Font size: 11
 - Background image: set use a cool satellite view from google earth with opacity 20%
 
-## Installing Oh-My-Zsh!
-I've followed [this tutorial](https://dominikrys.com/posts/zsh-in-git-bash-on-windows/) with success a few times before.
-
-## Configuring Oh-My-Zsh!
-My favorite default theme is [kolo](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#kolo) which can be set in `~/.zshrc`.
+### zsh
+I use zsh as console, with the `.zshrc` included in this repository. It sets up my prompt style, git aliases, and zsh plugins.
 
 I use the following plugins:
-- [autosuggestion](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+- [autosuggestion](https://github.com/zsh-users/zsh-autosuggestions)
+- [syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-## Commitizen and Gitmojis
+```
+cd ~/.zsh
+git clone https://github.com/zsh-users/zsh-autosuggestions.git
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+
+```
+### micro editor
+For console editors, I like using micro, which can be installed with `curl https://getmic.ro | bash`
+
+### Commitizen and Gitmojis
 To enhance my Git process, I like to use [Commitizen](https://github.com/commitizen/cz-cli), especially for its gitmojis.
 
 After installing, I initialize commitizen with
