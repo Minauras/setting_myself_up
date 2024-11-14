@@ -46,13 +46,17 @@ I use zsh as console, with the `.zshrc` included in this repository. It sets up 
 I use the following plugins:
 - [autosuggestion](https://github.com/zsh-users/zsh-autosuggestions)
 - [syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [history substring search](https://github.com/zsh-users/zsh-history-substring-search)
 
 ```
 cd ~/.zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions.git
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-
+git clone https://github.com/zsh-users/zsh-history-substring-search.git
 ```
+
+For history substring search, I like to map up and down to the Page Up and Page Down buttons. Keymaps for those buttons can be found with `cat -v`, and can then be updated in the `.zshrc`.
+
 ### micro editor
 For console editors, I like using micro, which can be installed with `curl https://getmic.ro | bash`
 

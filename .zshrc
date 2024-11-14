@@ -25,3 +25,6 @@ git config --global alias.ll "log --oneline -n 10"
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+bindkey '^[[5~' history-substring-search-up
+bindkey '^[[6~' history-substring-search-down
